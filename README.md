@@ -1,12 +1,16 @@
 ## SDK_THP_VERIFONE
 
 #### Usage
-Create a single view application
-After the SampleApp created, drag in the ```SDK_THP_Verifone.xcodeproj```
+Create a single view application.
+
+After the SampleApp created, drag in the ```SDK_THP_Verifone.xcodeproj```.
+
 When you are dragging in the SDK_THP_Verifone make sure that you don't have another instance of Xcode open.
+
 Once you have dragged in the framework it should have a little arrow next to it which will allow you to see the contents of that framework.
 ###### Add the framework to Frameworks, Libraries and Embedded Content
-To do this you will need to click on the SampleApp project in the top left, go to the General tab and then look for Framework, Libraries and Embedded Content. Once you have found it, click on the + button. When you click on the + button you will get prompted to choose the framework you want to add. Make sure to select the ```SDK_THP_Verifone.xcodeproj```
+To do this you will need to click on the SampleApp project in the top left, go to the General tab and then look for Framework, Libraries and Embedded Content. Once you have found it, click on the + button. When you click on the + button you will get prompted to choose the framework you want to add. Make sure to select the ```SDK_THP_Verifone.xcodeproj```.
+
 Now that we have everything setup we can use the framework. 
 
 ```
