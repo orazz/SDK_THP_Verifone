@@ -26,7 +26,7 @@ extension TableView
         self.tableView.estimatedRowHeight = 44
         self.tableView.rowHeight = UITableView.automaticDimension
         self.tableView.tableFooterView = UIView()
-        self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: ReuseIdentifiers.textInput.rawValue)
+        self.tableView.register(TextInputTableViewCell.self, forCellReuseIdentifier: ReuseIdentifiers.textInput.rawValue)
         self.view.addSubview(self.tableView)
         
         sendButton = UIBarButtonItem(title: "Send", style: .plain, target: self, action: #selector(send))
